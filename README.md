@@ -1,8 +1,8 @@
 # English-Premier-League-Rankings-Prediction
-Objective
+Objective:
 The objective of this project is to predict the outcome of a game given any two teams in the Premier League. Using the results, predictions for the total points of each team and the rankings of the top 6 teams are outputted.
 
-Methodology
+Methodology:
 The first step in the methodology is to reduce the number of covariates under investigation using feature selection. Using the mutual information approach, covariates that do not provide additional information are removed.
 
 Two different classification methods and eighth different models are used to determine predictions of each game. For classification, the first classification method is binary: home win (1) or not (0). The second classification method uses a multiclassifier: home team wins (0), away team wins(1), or draw (2). Experiments are run using eighth different models: SVM, Random Forest, Logistic Regression, Naive Bayes, Neural Networks, AdaBoost, K-Nearest Neighbor, and QDA. 
